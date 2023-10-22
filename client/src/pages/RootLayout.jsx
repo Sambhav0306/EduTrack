@@ -1,6 +1,7 @@
 import { Outlet, useNavigation } from "react-router-dom";
 
 import MainNavigation from "../components/MainNav";
+import Footer from "../components/Footer";
 
 const RootLayout = () => {
 	// const navigation = useNavigation();
@@ -10,9 +11,10 @@ const RootLayout = () => {
 			<MainNavigation />
 			<main>
 				{/* {navigation.state === 'loading' && <p>Loading...</p>} */}
-				Main Content
+				Main content
 				<Outlet />
 			</main>
+			<Footer/>
 		</>
 	);
 };
