@@ -1,0 +1,213 @@
+/* Contact.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html{
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Set the main content container to a vertical layout */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 9rem; /* Add a bit more margin for spacing */
+    margin-right:9rem;
+}
+
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Subtle white background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 9rem; /* Add a bit more margin for spacing */
+    margin-right: 9rem;
+    position: relative; /* Set the content box to a relative position */
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px; /* Set the height of the blue rectangle */
+    background-color: #007bff;
+    /* background: linear-gradient(to bottom, rgb(0, 123, 255), rgba(0, 123, 255, 0));     */
+    border-radius: 10px 10px 0 0;  /* Adjust the border radius to match the content box */
+}
+
+
+.contact-form, .contact-info {
+
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    width: 50%;
+    padding: 20px;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    
+}
+  
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 30rem;
+    margin: auto 0;
+  }
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.phoneicon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.phoneicon:hover {
+    animation: ring-ring 0.6s infinite;
+}
+
+@keyframes ring-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.emailicon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.emailicon:hover {
+    animation: swift 0.8s ease-in-out infinite;
+}
+
+@keyframes swift {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.small-input {
+    width: 100%;
+}
+
+.large-input {
+    
+    width: 100%;
+    height: 100px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 45%;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    margin-right: 0;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.text-animation {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+  
+  .text-animation:hover {
+    transform: scale(1.2);
+    color: white;
+    text-shadow: 0 0 5px white;
+  }
+  
