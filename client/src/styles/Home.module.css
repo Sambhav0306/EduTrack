@@ -4,8 +4,8 @@
 }
 
 .banner {
-	height: 200px;
-	padding: 10px;
+	height: 15rem;
+	padding: 1rem;
 	width: 70%;
 	margin: 0 auto;
 	border-radius: 20px;
@@ -17,38 +17,26 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	margin: 0 150px;
-	padding: 20px;
+	margin: 2.2rem 5rem;
+	gap: 4rem;
 }
 
 .gradient1 {
-	background: linear-gradient(
-		180deg,
-		rgba(170, 216, 111, 0.3271) 60%,
-		#bdf5ef 100%
-	);
+	background-color: #cee8c7;
 }
 
 .gradient2 {
-	background: linear-gradient(
-		180deg,
-		rgba(219, 0, 255, 0.2) 40%,
-		rgba(148, 255, 255, 0.65) 100%
-	);
+	background-color: #c6c8df;
 }
 
 .gradient3 {
-	background: linear-gradient(
-		180deg,
-		rgba(255, 76, 2, 0.3271) 53%,
-		#b1ccff 100%
-	);
+	background-color: #ebcacb;
 }
 
 .gradient4 {
-	background: linear-gradient(180deg, #c087f961 45%, #ffa3a3 100%);
+	background-color: #f2f7cf;
 }
 
 .gradient5 {
-	background: linear-gradient(180deg, #d2a5ff3c 50%, #eeff86 100%);
+	background-color: #b8eef4;
 }

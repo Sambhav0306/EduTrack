@@ -11,10 +11,9 @@ const RootLayout = () => {
 			<MainNavigation />
 			<main>
 				{/* {navigation.state === 'loading' && <p>Loading...</p>} */}
-				Main content
 				<Outlet />
 			</main>
-			<Footer/>
+			<Footer />
 		</>
 	);
 };
