@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 .course-card {
 	display: flex;
 	flex-direction: column;
-	height: 450px;
-	width: 360px;
-	margin: 1.5rem 2rem;
+	height: 28rem;
+	width: 23rem;
 	/* padding: 20px; */
 	/* border: 2px solid #000000; */
 	border-radius: 3px 28px 3px 28px;
@@ -17,6 +18,20 @@
 	background-repeat: no-repeat;
 	background-image: url("../assets/coding.jpeg");
 	background-position: center;
-	background-size: 360px 270px;
+	background-size: 23.1rem 20rem;
 	border-radius: 0 28px 0 0;
+}
+
+.info {
+	padding: 1rem;
+}
+
+.info h2 {
+	font-family: "Lato", sans-serif;
+	margin: 0.5rem;
+}
+
+.info p {
+	font-family: "Lato", sans-serif;
+	margin: 0.5rem;
 }
