@@ -49,9 +49,10 @@ const Contact = () => {
               <img src={emailIcon} alt="Email" className={styles.emailicon} />
               <span>Email: contact@example.com</span>
             </div>
-            <div className={styles.buttonContainer}>
-        <button className={styles.button}>Click Me</button>
-      </div>
+            <div className={styles['button-container']}>
+              <button type="submit" className={styles['text-animation']}>
+                Click Me</button>
+            </div>
           </div>
           </div>
       </div>
