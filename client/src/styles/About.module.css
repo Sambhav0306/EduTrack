@@ -1,0 +1,76 @@
+.about{
+    display: flex;
+    flex-direction: column;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 25vh;
+    width: 70%;
+    background-color: burlywood;
+}
+.info h3{
+     margin-left: 3%;
+     margin-top: 2%;
+}
+.info p{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.team{
+    display: flex;
+    height: 50vh;
+    width: 90%;
+    gap: 2%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom:5% ;
+}
+.sm{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    text-align: center;
+    column-gap: 2%;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+.sv{
+    display: flex;
+    text-align: center;
+    column-gap: 2%;
+    background-color: grey;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+}
+.ty{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 2%;
+    background-color: grey;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+}
+.rs{
+    display: flex;
+    column-gap: 2%;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+.image{
+    /* display: flex; */
+    /* margin-top: 0; */
+    height: 45%;
+    background-color: white;
+    border-radius: 0.3rem;
+}
