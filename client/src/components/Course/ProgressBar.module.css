@@ -1,0 +1,17 @@
+.container {
+	width: 90%;
+	background-color: rgb(204, 226, 246);
+}
+
+.progress {
+	display: flex;
+	align-items: center;
+	width: 83%;
+	background-color: #439166;
+	justify-content: center;
+}
+
+.container span {
+	padding: 0.5rem;
+	color: aliceblue;
+}
