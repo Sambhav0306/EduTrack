@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.card {
+	border-radius: 14px;
+	font-family: "Lato", sans-serif;
+}
+
+.card h3 {
+	font: inherit;
+	text-align: center;
+	font-weight: 800;
+}
+
+.progress {
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
