@@ -1,4 +1,6 @@
 import classes from "./CourseCard.module.css";
+import Button from "./UI/Button";
+import ArrowRightIcon from "./Icons/ArrowRightIcon";
 
 const CourseCard = (props) => {
 	return (
@@ -13,6 +15,14 @@ const CourseCard = (props) => {
 					fugiat voluptates asperiores illo expedita? Labore, aliquid impedit?
 					Accusantium, error.
 				</p>
+			</div>
+			<div className={classes.actions}>
+				<Button link={props.link}>
+					<span>Go to course</span>
+					<span className={classes.icon}>
+						<ArrowRightIcon />
+					</span>
+				</Button>
 			</div>
 		</div>
 	);
