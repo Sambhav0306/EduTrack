@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./MainNav.module.css";
-const MainNav = () => {
+const MainNav = (props) => {
 	return (
 		<nav className={classes.nav}>
 			<div className={classes.left}>
@@ -32,7 +32,7 @@ const MainNav = () => {
 				</NavLink>
 			</div>
 			<div className={classes.right}>
-				<button>Sign In</button>
+				<button onClick={props.onSignIn}>Sign In</button>
 			</div>
 		</nav>
 	);
