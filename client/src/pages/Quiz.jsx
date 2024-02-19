@@ -112,7 +112,7 @@ const Quiz = ({ onQuizCompleted }) => {
         </div>
       ) : (
         <div>
-          <h2 className="quiz-header">Quiz Component</h2>
+          <h2 className="quiz-header">Start your quiz</h2>
           <form className="quiz-form" onSubmit={handleQuizSubmit}>
             {questions.map((question, index) => (
               <div key={`q${index + 1}`} className="quiz-question">

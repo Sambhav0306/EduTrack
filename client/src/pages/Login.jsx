@@ -1,17 +1,17 @@
 import { useState } from "react";
 import Modal from "../components/UI/Modal";
 import classes from "../styles/Login.module.css";
-import Quiz from "./Quiz"; // Import your Quiz component or create it if not existing
+import Quiz from "./Quiz"; 
 
 const Login = (props) => {
   const [isLogin, setIsLogin] = useState(false);
   const [showQuiz, setShowQuiz] = useState(false);
 
   const loginStateHandler = () => {
+    event.preventDefault();
     setIsLogin((prevState) => !prevState);
     // Reset showQuiz when switching between login and sign-up
-    {!isLogin ? setShowQuiz(false) : setShowQuiz(true);
-    };
+    setShowQuiz(false);
   };
 
   const signUpHandler = (event) => {
@@ -20,10 +20,9 @@ const Login = (props) => {
     // After successful sign-up, show the quiz
     setShowQuiz(true);
   };
-	const loginHandler = (event) => {
+  const loginHandler = (event) => {
     event.preventDefault();
   };
-
   return (
     <Modal onClose={props.onClose}>
       {showQuiz ? (
@@ -55,7 +54,7 @@ const Login = (props) => {
                   className={classes["btn-switch"]}
                   onClick={loginStateHandler}
                 >
-                  {isLogin ? "Existing User?" : "New User?"}
+                  {isLogin ? "New User?" : "Existing User?"}
                 </button>
               </div>
               <div>
