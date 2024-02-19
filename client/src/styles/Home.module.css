@@ -1,0 +1,42 @@
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner {
+	height: 15rem;
+	padding: 1rem;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-color: rgb(229, 216, 216);
+}
+
+.courses {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 2.2rem 5rem;
+	gap: 4rem 3%;
+}
+
+.gradient1 {
+	background-color: #cee8c7;
+}
+
+.gradient2 {
+	background-color: #c6c8df;
+}
+
+.gradient3 {
+	background-color: #ebcacb;
+}
+
+.gradient4 {
+	background-color: #f2f7cf;
+}
+
+.gradient5 {
+	background-color: #b8eef4;
+}

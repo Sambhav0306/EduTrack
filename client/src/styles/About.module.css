@@ -1,0 +1,83 @@
+.about{
+    display: flex;
+    flex-direction: column;
+
+}
+.info{
+    height: 15rem;
+	padding: 1rem;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.05);
+}
+.info h3{
+     margin-top: 2%;
+     text-align: center;
+     font-size: 2rem;
+     font-weight: 600;
+}
+.info p{
+    display: flex;
+    margin: 3%;
+}
+.team {
+    display: flex;
+    height: 50vh;
+    width: 70%; 
+    gap: 3%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sm,
+.sv,
+.ty,
+.rs {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    column-gap: 2%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+.content {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.role{
+    margin-bottom: 1.6rem;
+}
+.socialmedia {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.socialmedia a {
+	padding: 0.5rem;
+}
+
+.socialmedia img:hover {
+	transform: scale(1.2);
+}
+
+.socialmedia img {
+	height: 35px;
+	width: 35px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.image{
+    height: 45%;
+    background-color: rgb(72, 72, 72);
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: 2.7rem;
+}

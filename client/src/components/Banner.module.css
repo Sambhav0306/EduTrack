@@ -1,0 +1,116 @@
+.banner {
+	height: 25rem;
+	padding: 1rem;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background-image: url("../assets/banner3.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.typed-text-container {
+	height: 12rem;
+	margin: 2.3rem;
+	display: flex;
+	width: 100%;
+}
+
+.typed-text {
+	font-weight: 700;
+	color: #66defb;
+	font-size: 4rem;
+	line-height: 1.2;
+}
+
+.blinking-cursor {
+	font-size: 4rem;
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+.slogan {
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin-left: 2.3rem;
+}
+.button-container {
+	display: flex;
+}
+button[type="about"] {
+	background-color: #00c5f6;
+	color: white;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 8rem;
+	margin-top: 2rem;
+	font-size: medium;
+}
+.text-animation {
+	transition: transform 0.3s ease-in-out, color 0s ease-in-out,
+		text-shadow 0s ease-in-out;
+}
+.text-animation:hover {
+	transform: scale(1.05);
+	color: #66defb;
+	background-color: aliceblue;
+	text-shadow: 0 0 5px white;
+	box-shadow: 0 0 0 1px;
+}
+@keyframes blink {
+	from,
+	to {
+		color: transparent;
+	}
+	50% {
+		color: #66defb;
+	}
+}
+
+@-moz-keyframes blink {
+	from,
+	to {
+		color: transparent;
+	}
+	50% {
+		color: #66defb;
+	}
+}
+
+@-webkit-keyframes blink {
+	from,
+	to {
+		color: transparent;
+	}
+	50% {
+		color: #66defb;
+	}
+}
+
+@-ms-keyframes blink {
+	from,
+	to {
+		color: transparent;
+	}
+	50% {
+		color: #66defb;
+	}
+}
+
+@-o-keyframes blink {
+	from,
+	to {
+		color: transparent;
+	}
+	50% {
+		color: #66defb;
+	}
+}

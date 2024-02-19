@@ -1,0 +1,134 @@
+[
+	{
+		"id": "dsa",
+		"title": "DSA",
+		"topics": [
+			{
+				"id": 1,
+				"title": "Basics",
+				"sections": [
+					{
+						"id": 1.1,
+						"title": "Programming language basics",
+						"items": [
+							{
+								"id": 1,
+								"title": "question 1",
+								"vid": "vid link 1",
+								"pl": "pl link 1"
+							},
+							{
+								"id": 2,
+								"title": "question 2",
+								"vid": "vid link 2",
+								"pl": "pl link 2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Sorting",
+				"sections": [
+					{
+						"id": 1.1,
+						"title": "Programming language basics",
+						"items": [
+							{
+								"id": 1,
+								"title": "question 1",
+								"vid": "vid link 1",
+								"pl": "pl link 1"
+							},
+							{
+								"id": 2,
+								"title": "question 2",
+								"vid": "vid link 2",
+								"pl": "pl link 2"
+							}
+						]
+					},
+					{
+						"id": 1.2,
+						"title": "Programming language basics",
+						"items": [
+							{
+								"id": 1,
+								"title": "question 1",
+								"vid": "vid link 1",
+								"pl": "pl link 1"
+							},
+							{
+								"id": 2,
+								"title": "question 2",
+								"vid": "vid link 2",
+								"pl": "pl link 2"
+							}
+						]
+					},
+					{
+						"id": 1.3,
+						"title": "Programming language basics",
+						"items": [
+							{
+								"id": 1,
+								"title": "question 1",
+								"vid": "vid link 1",
+								"pl": "pl link 1"
+							},
+							{
+								"id": 2,
+								"title": "question 2",
+								"vid": "vid link 2",
+								"pl": "pl link 2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "Arrays",
+				"sections": [
+					{
+						"id": 1.1,
+						"title": "Programming language basics",
+						"items": [
+							{
+								"id": 1,
+								"title": "question 1",
+								"vid": "vid link 1",
+								"pl": "pl link 1"
+							},
+							{
+								"id": 2,
+								"title": "question 2",
+								"vid": "vid link 2",
+								"pl": "pl link 2"
+							}
+						]
+					},
+					{
+						"id": 1.2,
+						"title": "Programming language basics",
+						"items": [
+							{
+								"id": 1,
+								"title": "question 1",
+								"vid": "vid link 1",
+								"pl": "pl link 1"
+							},
+							{
+								"id": 2,
+								"title": "question 2",
+								"vid": "vid link 2",
+								"pl": "pl link 2"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.course-card {
+	display: flex;
+	flex-direction: column;
+	height: 28rem;
+	width: 23rem;
+	/* padding: 20px; */
+	/* border: 2px solid #000000; */
+	border-radius: 3px 28px 3px 28px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+		0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.course-img {
+	height: 45%;
+	background-repeat: no-repeat;
+	background-image: url("../assets/coding.jpeg");
+	background-position: center;
+	background-size: 23.1rem 20rem;
+	border-radius: 0 28px 0 0;
+}
+
+.info {
+	padding: 1rem;
+}
+
+.info h2 {
+	font-family: "Lato", sans-serif;
+	margin: 0.5rem;
+}
+
+.info p {
+	font-family: "Lato", sans-serif;
+	margin: 0.5rem;
+}
+
+.actions {
+	display: flex;
+	padding: 0.5rem 0.5rem;
+	justify-content: end;
+}
+
+.actions a {
+	display: block;
+}
+
+.actions a span {
+	vertical-align: middle;
+}
+
+.icon {
+	margin-left: 0.5rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon svg {
+	width: 1.25rem;
+	height: 1.25rem;
+}

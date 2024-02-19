@@ -1,0 +1,29 @@
+main {
+	margin-bottom: 1rem;
+}
+
+.header,
+.content {
+	display: flex;
+	flex-direction: row;
+	gap: 10rem;
+	width: 99vw;
+}
+
+.left {
+	width: 20%;
+	border-radius: 0 14px 14px 0;
+}
+
+.right {
+	width: 60%;
+	border-radius: 14px;
+}
+
+.header .left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 0;
+}
